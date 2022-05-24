@@ -89,7 +89,7 @@ int main()
 
     std::cout << "Reads:\n";
 
-    /*
+    
     std::cout << "Integer: ";
     int ii;
     read_val(ii);
@@ -110,7 +110,7 @@ int main()
     std::cout << "S<char> read: " << sc2.get() << '\n';
     std::cout << "S<double> read: " << sd2.get() << '\n';
     std::cout << "S<string> read: " << s2.get() << '\n';
-    */
+    
     std::cout << "Vector<int>: (format: { val1, val2, val3 }) ";
     std::vector<int> vi2;
     read_val(vi2);
